@@ -120,14 +120,14 @@
       <h2>Learn the Sanskrit Alphabet</h2>
       <div class="alphabet-grid">
         <div class="alphabet-card">
-          <img src="sanskrit-alphabet.jpg" alt="Sanskrit Alphabet">
+          <img src="https://t3.ftcdn.net/jpg/00/21/40/10/240_F_21401005_HuvvcFm54WmZKmF79ltpjX2B1zzVJqZR.jpg" alt="Sanskrit Alphabet">
           <h3>Meet the Sanskrit Letters</h3>
           <p>Discover the letters of Sanskrit in a fun and interactive way. Each letter has its own unique story!</p>
         </div>
         <!-- Add more alphabet cards with images -->
         <!-- Example: -->
         <div class="alphabet-card">
-          <img src="alphabet-card-image.jpg" alt="Alphabet Card">
+          <img src="https://cdn-icons-png.flaticon.com/128/5149/5149585.png" alt="Alphabet Card">
           <h3>Exploring Letters</h3>
           <p>Join us on an adventure to explore more Sanskrit letters and uncover their hidden meanings.</p>
         </div>
@@ -138,14 +138,14 @@
       <h2>Counting in Sanskrit</h2>
       <div class="numbers-grid">
         <div class="number-card">
-          <img src="sanskrit-numbers.jpg" alt="Sanskrit Numbers">
+          <img src="https://cdn-icons-png.flaticon.com/128/586/586211.png" alt="Sanskrit Numbers">
           <h3>Counting Fun</h3>
           <p>Learn to count in Sanskrit with playful games and catchy rhymes. You'll be a number pro in no time!</p>
         </div>
         <!-- Add more number cards with images -->
         <!-- Example: -->
         <div class="number-card">
-          <img src="number-card-image.jpg" alt="Number Card">
+          <img src="https://img.icons8.com/?size=1x&id=klkbN7X4UElw&format=gif" alt="Number Card">
           <h3>Numbers Everywhere</h3>
           <p>Explore the world of Sanskrit numbers and unlock the secrets of ancient counting.</p>
         </div>
@@ -156,14 +156,14 @@
       <h2>Everyday Phrases</h2>
       <div class="phrases-list">
         <div class="phrase-card">
-          <img src="sanskrit-phrases.jpg" alt="Sanskrit Phrases">
+          <img src="https://img.icons8.com/?size=1x&id=KSvuxdrGCfC9&format=png" alt="Sanskrit Phrases">
           <h3>Phrase Adventure</h3>
           <p>Learn useful everyday phrases in Sanskrit while embarking on a thrilling language journey.</p>
         </div>
         <!-- Add more phrase cards with images -->
         <!-- Example: -->
         <div class="phrase-card">
-          <img src="phrase-card-image.jpg" alt="Phrase Card">
+          <img src="https://img.icons8.com/?size=1x&id=IMEJtySkiKUS&format=gif" alt="Phrase Card">
           <h3>Talking Sanskrit</h3>
           <p>Start talking like a pro! Dive into Sanskrit phrases that will make you sound like a local.</p>
         </div>
@@ -174,7 +174,7 @@
       <h2>Test Your Knowledge</h2>
       <p>Ready for some brain-teasers? Take our interactive quiz and become a Sanskrit master!</p>
       <a href="#quiz" class="cta-button">Start Quiz</a>
-      <img src="quiz-time.jpg" alt="Quiz Time" class="quiz-image">
+      <img src="https://cdn-icons-png.flaticon.com/128/4728/4728753.png" alt="Quiz Time" class="quiz-image">
     </section>
   </main>
   
