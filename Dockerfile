@@ -1,3 +1,3 @@
 FROM tomcat:latest
-COPY ./webapp.war /usr/local/tomcat/webapps
+COPY /mnt/Web-App/simple_webpage/webapp/target/webapp.war /usr/local/tomcat/webapps
 RUN cp -r /usr/local/tomcat/webapps.dist/* /usr/local/tomcat/webapps
