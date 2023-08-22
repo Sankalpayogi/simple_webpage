@@ -3,208 +3,183 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Insight Genesis</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <title>Learn Sanskrit for Kids</title>
+  <link rel="stylesheet" href="styles.css">
   <style>
-    /* Custom styles for Insight Genesis */
+    /* Additional styles for Sanskrit theme */
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-image: linear-gradient(to bottom, #ffccff, #66ccff); /* Gradient background */
+      margin: 0;
+      padding: 0;
     }
 
-    .navbar {
-      background-color: #d7c2c2;
-    }
-
-    .navbar-brand {
-      font-weight: bold;
-      color: #007bff;
-    }
-
-    .jumbotron {
-      background-image: url('https://bs-uploads.toptal.io/blackfish-uploads/uploaded_file/file/194732/image-1582817318583-cffc572532846ed1aee68cf256a39dfa.png');
-      background-size: cover;
-      color: #fff;
-      padding: 200px 0;
+    header {
       text-align: center;
+      background-color: #ffcc66; /* Light orange header */
+      padding: 20px;
+      color: #884600; /* Darker orange text */
     }
 
-    .jumbotron h1 {
-      font-size: 3.5rem;
-      margin-bottom: 20px;
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      background-color: #ff9966; /* Peach navigation background */
+      padding: 10px;
+      border-top: 2px solid #ffcc66;
+      border-bottom: 2px solid #ffcc66;
+      margin: 0;
     }
 
-    .jumbotron p {
-      font-size: 1.5rem;
+    nav a {
+      text-decoration: none;
+      color: #884600; /* Darker orange text */
+      padding: 10px 20px;
+      transition: background-color 0.3s, color 0.3s;
     }
 
-    .services-section {
-      padding: 100px 0;
+    nav a:hover {
+      background-color: #ffcc66; /* Light orange on hover */
+      color: white; /* White text on hover */
     }
 
-    .services-section h2 {
-      margin-bottom: 40px;
-      text-align: center;
+    main {
+      padding: 20px;
     }
 
-    .service-card {
-      background-color: #fff;
+    .cta-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ff9966; /* Peach CTA button */
+      color: white;
+      text-decoration: none;
       border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      padding: 30px;
-      text-align: center;
-      margin-bottom: 30px;
-      cursor: pointer;
+      margin-top: 20px;
+      transition: background-color 0.3s;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
     }
 
-    .service-card img {
-      max-width: 80px;
-      margin-bottom: 20px;
+    .cta-button:hover {
+      background-color: #ffcc66; /* Light orange on hover */
     }
 
-    .footer {
-      background-color: #333;
-      color: #fff;
-      padding: 30px 0;
-      text-align: center;
+    section {
+      background-color: white;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #884600; /* Darker orange heading */
+      font-size: 28px; /* Increase font size for cozy feel */
+    }
+
+    p {
+      font-size: 18px; /* Adjust font size for cozy feel */
+    }
+
+    /* Additional cozy styles */
+    .alphabet-card,
+    .number-card,
+    .phrase-card {
+      background-color: #fff8e1; /* Light yellow card background */
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
   </style>
 </head>
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container">
-      <a class="navbar-brand" href="#">Insight Genesis</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
+  <header>
+    <h1>Learn Sanskrit with Fun</h1>
+    <p>Discover the beauty of Sanskrit through interactive games and activities!</p>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#alphabet">Alphabet</a></li>
+      <li><a href="#numbers">Numbers</a></li>
+      <li><a href="#phrases">Phrases</a></li>
+      <li><a href="#quiz">Quiz</a></li>
+    </ul>
   </nav>
-
-  <!-- Jumbotron -->
-  <div class="jumbotron">
-    <div class="container">
-      <h1 class="display-4">Insight Genesis</h1>
-      <p class="lead">Your IT Solutions Partner</p>
-    </div>
-  </div>
-
-  <!-- Services Section -->
-  <section id="services" class="services-section">
-    <div class="container">
-      <h2>Our Services</h2>
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="service-card" data-toggle="modal" data-target="#serviceModal1">
-            <img src="C:\Users\91940\OneDrive\Desktop\keys\service-1.jfif" alt="Service 1">
-            <h3>Project Management</h3>
-            <p>Effective project management to ensure successful project delivery.</p>
-          </div>
+  
+  <main>
+    <section id="home">
+      <h2>Welcome to the World of Sanskrit!</h2>
+      <p>Get ready to explore the magic of Sanskrit through exciting games and activities designed just for you.</p>
+      <a href="#alphabet" class="cta-button">Start Your Journey</a>
+    </section>
+    
+    <section id="alphabet">
+      <h2>Learn the Sanskrit Alphabet</h2>
+      <div class="alphabet-grid">
+        <div class="alphabet-card">
+          <img src="https://t3.ftcdn.net/jpg/00/21/40/10/240_F_21401005_HuvvcFm54WmZKmF79ltpjX2B1zzVJqZR.jpg" alt="Sanskrit Alphabet">
+          <h3>Meet the Sanskrit Letters</h3>
+          <p>Discover the letters of Sanskrit in a fun and interactive way. Each letter has its own unique story!</p>
         </div>
-        <div class="col-lg-4">
-          <div class="service-card" data-toggle="modal" data-target="#serviceModal2">
-            <img src="C:\Users\91940\OneDrive\Desktop\keys\ser-2.jfif" alt="Service 2">
-            <h3>Software Development</h3>
-            <p>Custom software development tailored to your business requirements.</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="service-card" data-toggle="modal" data-target="#serviceModal3">
-            <img src="C:\Users\91940\OneDrive\Desktop\keys\IG.png" alt="Service 3">
-            <h3>Quality Assurance</h3>
-            <p>Comprehensive testing and quality assurance to deliver bug-free solutions.</p>
-          </div>
+        <!-- Add more alphabet cards with images -->
+        <!-- Example: -->
+        <div class="alphabet-card">
+          <img src="https://cdn-icons-png.flaticon.com/128/5149/5149585.png" alt="Alphabet Card">
+          <h3>Exploring Letters</h3>
+          <p>Join us on an adventure to explore more Sanskrit letters and uncover their hidden meanings.</p>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <p>Email: <a href="mailto:weforyou@insight.com">weforyou@insight.com</a></p>
-      <p>Contact No.: +917896541235</p>
-      <p>Add: Brij Vihar, Sant Tukaram Nagar, Pimpri (411018)</p>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; 2023 Insight Genesis. All rights reserved.</p>
-    </div>
+    </section>
+    
+    <section id="numbers">
+      <h2>Counting in Sanskrit</h2>
+      <div class="numbers-grid">
+        <div class="number-card">
+          <img src="https://cdn-icons-png.flaticon.com/128/586/586211.png" alt="Sanskrit Numbers">
+          <h3>Counting Fun</h3>
+          <p>Learn to count in Sanskrit with playful games and catchy rhymes. You'll be a number pro in no time!</p>
+        </div>
+        <!-- Add more number cards with images -->
+        <!-- Example: -->
+        <div class="number-card">
+          <img src="https://img.icons8.com/?size=1x&id=klkbN7X4UElw&format=gif" alt="Number Card">
+          <h3>Numbers Everywhere</h3>
+          <p>Explore the world of Sanskrit numbers and unlock the secrets of ancient counting.</p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="phrases">
+      <h2>Everyday Phrases</h2>
+      <div class="phrases-list">
+        <div class="phrase-card">
+          <img src="https://img.icons8.com/?size=1x&id=KSvuxdrGCfC9&format=png" alt="Sanskrit Phrases">
+          <h3>Phrase Adventure</h3>
+          <p>Learn useful everyday phrases in Sanskrit while embarking on a thrilling language journey.</p>
+        </div>
+        <!-- Add more phrase cards with images -->
+        <!-- Example: -->
+        <div class="phrase-card">
+          <img src="https://img.icons8.com/?size=1x&id=IMEJtySkiKUS&format=gif" alt="Phrase Card">
+          <h3>Talking Sanskrit</h3>
+          <p>Start talking like a pro! Dive into Sanskrit phrases that will make you sound like a local.</p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="quiz">
+      <h2>Test Your Knowledge</h2>
+      <p>Ready for some brain-teasers? Take our interactive quiz and become a Sanskrit master!</p>
+      <a href="#quiz" class="cta-button">Start Quiz</a>
+      <img src="https://cdn-icons-png.flaticon.com/128/4728/4728753.png" alt="Quiz Time" class="quiz-image">
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Learn Sanskrit for Kids. All rights reserved.</p>
   </footer>
-
-  <!-- Service Modals -->
-  <div class="modal fade" id="serviceModal1" tabindex="-1" role="dialog" aria-labelledby="serviceModal1Label" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="serviceModal1Label">Project Management</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <p>Effective project management to ensure successful project delivery.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade" id="serviceModal2" tabindex="-1" role="dialog" aria-labelledby="serviceModal2Label" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="serviceModal2Label">Software Development</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <p>Custom software development tailored to your business requirements.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade" id="serviceModal3" tabindex="-1" role="dialog" aria-labelledby="serviceModal3Label" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="serviceModal3Label">Quality Assurance</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <p>Comprehensive testing and quality assurance to deliver bug-free solutions.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
