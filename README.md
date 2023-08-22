@@ -2,7 +2,7 @@
 ## Statement 
 Deploy a simple webpage on tomcat server.
 ## Description
-In this project a web app is already developed by developer(Rahul Shetty, a udemy course instructor), We are just deploying it using automation tool.
+In this project, We are just deploying it using automation tool.
 ## Prerequisites 
 ![Alt Text](https://cdn.iconscout.com/icon/premium/png-512-thumb/job-description-8595459-6953720.png?f=avif&w=256) 
 
